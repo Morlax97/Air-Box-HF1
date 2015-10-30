@@ -1,0 +1,22 @@
+import Adafruit_BMP.BMP085 as BMP085
+import Adafruit_DHT
+import 
+
+sensor = BMP085.BMP085()
+sensor = Adafruit_DHT.DHT22
+
+print 'Temp = {0:0.2f} *C'.format(sensor.read_temperature())
+print 'Pressure = {0:0.2f} Pa'.format(sensor.read_pressure())
+print 'Altitude = {0:0.2f} m'.format(sensor.read_altitude())
+print 'Sealevel Pressure = {0:0.2f} Pa'.format(sensor.read_sealevel_pressur
+pin = 23
+humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+if humidity is not None and temperature is not None:
+     print 'Temp={0:0.1f}*C Humidity={1:0.1f}%'.format(temperature, humidity)
+else:
+     print 'Failed to get reading. Try again!'
+
+print "Light Level : " + str(readLight()) + " lx"
+time.sleep(0.5)
+
+
