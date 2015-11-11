@@ -1,3 +1,6 @@
+# Codigo del primer proyecto. Este recolecta datos de un sensor de temperatura BMP180 y de un sensor de luz BH1750 y
+# los envia a thingspeak. Para probarlo, cambiar la API key en la linea 36 por la del canal a utilizar.
+
 import Adafruit_BMP.BMP085 as BMP085
 import smbus
 import time
