@@ -1,3 +1,5 @@
+# Codigo de prueba del proyecto original que lee los datos de un sensor BMP180 y un sensor BH1750 y los imprime en el terminal.
+
 import Adafruit_BMP.BMP085 as BMP085
 import smbus
 import time
