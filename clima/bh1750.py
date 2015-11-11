@@ -1,3 +1,5 @@
+#Codigo para hacer funcionar un sensor de luz BH1750. No necesita setup. Utiliza protocolo I2C.
+#
 #!/usr/bin/python
 #--------------------------------------
 #    ___  ___  _ ____          
