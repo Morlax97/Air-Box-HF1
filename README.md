@@ -28,6 +28,7 @@ con sudo. En el caso de Minibian, la contraseña por default es raspberry
 Para descargar las ultimas librerias de los sensores BMP180 o DHT22 (AM2302), utilizar cualquiera de los siguientes comandos segun que sensor se va a utilizar
 
 git clone https://github.com/adafruit/Adafruit_Python_BMP.git
+
 git clone https://github.com/adafruit/Adafruit_Python_DHT.git
 
 Para instalar el software de los sensores DHT22 (AM2302) o BMP180, navegar hasta el directorio del sensor deseado, y luego
