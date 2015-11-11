@@ -1,4 +1,4 @@
-# test
+
 # Codigo para enviar los datos de 4 sensores de temperatura DS180B20 conectados en serie con un Arduino UNO,
 # y un sensor de luz BH1750 a thingpseak. Modificar la API key por la del canal propio para probar el programa.
 
