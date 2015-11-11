@@ -52,7 +52,7 @@ def convertToNumber(data):
   return ((data[1] + (256 * data[0])) / 1.2)
 
 def readLight(addr=DEVICE):
-  data = bus.read_i2c_block_data(addr,ONE_TIME_HIGH_RES_MODE_1)
+  data = bus.read_i2c_block_data(addr,ONE_TIME_LOW_RES_MODE)
   return convertToNumber(data)
 
 def main():
